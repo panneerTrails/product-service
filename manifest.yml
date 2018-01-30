@@ -1,0 +1,10 @@
+---
+applications:
+- name: product-test-service
+  instance: 1
+  host: product-test-service
+  path: build\libs\product-test-service-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 680M
+  services:
+    - test-eureka

@@ -1,0 +1,13 @@
+info:
+  description: "Service for Product Test Service"
+
+spring:
+  application:
+    name: product-test-service
+
+security:
+  basic:
+    enabled: false
+
+server:
+  port: 9093
