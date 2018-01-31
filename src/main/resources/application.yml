@@ -11,3 +11,14 @@ security:
 
 server:
   port: 9093
+
+common:
+  web:
+    config:
+      swagger:
+        controllerPackage: com.oauthex.productservice.controller
+        author: Panneerselvam
+        apiName: Product Service API
+        apiVersion: v1
+        apiDescription: Product-service
+        enabled: true
